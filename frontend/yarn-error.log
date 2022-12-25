@@ -1,0 +1,84 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\faiza\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install -f
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\faiza\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\faiza\AppData\Local\Programs\Python\Python310\;C:\Users\faiza\AppData\Local\Microsoft\WindowsApps;C:\Users\faiza\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\adb;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PostgreSQL\15\bin;C:\Users\faiza\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\faiza\AppData\Local\Programs\Python\Python310\;C:\Users\faiza\AppData\Local\Microsoft\WindowsApps;C:\Users\faiza\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\ProgramData\faiza\GitHubDesktop\bin;C:\Users\faiza\AppData\Roaming\npm;C:\Program Files\PostgreSQL\15\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'Z:\System Volume Information'
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.9.0",
+      "@emotion/styled": "^11.8.1",
+      "@material-ui/core": "^4.12.4",
+      "@material-ui/icons": "^4.11.3",
+      "@mui/icons-material": "^5.8.4",
+      "@mui/material": "^5.7.0",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.1.1",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^0.26.1",
+      "classnames": "^2.3.1",
+      "homepage": "/",
+      "jwt-decode": "^3.1.2",
+      "lodash": "^4.17.21",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-dropdown": "^1.10.0",
+      "react-epub-viewer": "^0.2.0",
+      "react-pdf": "^5.7.2",
+      "react-reader": "^0.21.1",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "5.0.1",
+      "resolve-url-loader": "^3.0.0",
+      "typescript": "^4.6.3",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "sass": "^1.51.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
